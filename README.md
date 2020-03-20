@@ -10,6 +10,7 @@ Objectifs :
 ```
 $ git clone "insérer l'URL de votre dépôt distant ici"
 $ cd node-app
+$ npm use 12.15
 ```
 
 ## Générer une application web
@@ -24,7 +25,11 @@ $ git push
 ## Installation
 ```
 $ npm install
-$ DEBUG="node-app:server" npm start
+$ npm start
+```
+## Tester serveur
+```
+#le serveur doit être en cours d'execution
 ```
 
 ## Heroku : Connexion + envoi
